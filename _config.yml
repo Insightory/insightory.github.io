@@ -43,22 +43,26 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             "오늘의 타로점"
     url:               /example/
-  - title:             Documentation
+  - title:             "가격 소개"
     url:               /docs/
-  - title:             About
+  - title:             "연애 상담"
+    url:               /example/
+  - title:             "율하 소개"
+    url:               /docs/
+  - title:             "타로 상담 예약"
     url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+# legal:
+#   - title:             LICENSE
+#     url:               /LICENSE/
+#   - title:             NOTICE
+#     url:               /NOTICE/
+#   - title:             CHANGELOG
+#     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2026. All rights reserved.
@@ -261,10 +265,10 @@ hydejack:
     always:            true
 
     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
-    dynamic:           true
+    dynamic:           false
 
     # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              true
+    icon:              false
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
