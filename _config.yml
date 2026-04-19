@@ -52,7 +52,7 @@ menu:
   - title: "율하 소개"
     url: /docs/
   - title: "타로 상담 예약"
-    url: /about/
+    url: /reserve/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
