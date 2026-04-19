@@ -16,22 +16,21 @@ title: "율하 타로"
 
 # 사이트 설명 (메타 태그용)
 description: >
-  율하 타로(Insightory of the Yulha Tarot) 신비로운 타로의 세계에 오신 것을 환영합니다!
-  저희는 타로 카드의 깊은 의미와 상징을 탐구하며, 여러분의 삶에 통찰과 지혜를 제공하는 것을 목표로 합니다.
-  타로는 단순한 예언도구가 아니라, 자기 성찰과 성장의 여정입니다.
-  저희 율하타로에서는 다양한 타로카드 해석, 리딩 방법, 그리고 타로와 관련된 이야기들을 공유할 예정입니다.
-  율하 타로와 함께, 당신의 내면의 목소리를 듣고, 삶의 방향을 찾아보세요.
+  율하 타로(Insightory of the Yulha Tarot) 신비로운 타로의 세계에 오신 것을 환영합니다! 저희는 타로 카드의 깊은
+  의미와 상징을 탐구하며, 여러분의 삶에 통찰과 지혜를 제공하는 것을 목표로 합니다. 타로는 단순한 예언도구가 아니라, 자기 성찰과 성장의
+  여정입니다. 저희 율하타로에서는 다양한 타로카드 해석, 리딩 방법, 그리고 타로와 관련된 이야기들을 공유할 예정입니다. 율하 타로와 함께,
+  당신의 내면의 목소리를 듣고, 삶의 방향을 찾아보세요.
 
 # 사이드바 설명
 tagline: "Insightory Yulha Tarot"
 
 # A list of keywords for your blog
-keywords: [Tarot, Divination, Fortune Telling, Insightory, Yulha]
+keywords: [ Tarot, Divination, Fortune Telling, Insightory, Yulha ]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/logo.png
+logo: /assets/img/intro/yulha.webp
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -41,16 +40,16 @@ author:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
-# Add links to the sidebar.
+  # Add links to the sidebar.
 menu:
-  - title: "오늘의 타로점"
+  - title: "오늘의 타로"
     url: /tarot/
   - title: "가격 소개"
     url: /price/
-  - title: "연애 상담"
-    url: /example/
+  - title: "타로 카드 소개"
+    url: /tarot/
   - title: "율하 소개"
-    url: /docs/
+    url: /yulha/
   - title: "타로 상담 예약"
     url: /reserve/
 
@@ -179,10 +178,10 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons: [about, newsletter, related, random, comments]
+  post_addons: [ about, newsletter, related, random, comments ]
 
   # Configure the order of complementary content on project pages
-  project_addons: [about, newsletter, other, comments]
+  project_addons: [ about, newsletter, other, comments ]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external: false
@@ -376,11 +375,11 @@ titles_from_headings:
   collections: true
 
 compress_html:
-  comments: ["<!--", "-->"]
+  comments: [ "<!--", "-->" ]
   clippings: all
   endings: all
   ignore:
-    envs: [development]
+    envs: [ development ]
 
 sass:
   style: compressed
