@@ -51,8 +51,10 @@ permalink: /
 
   <h2>상담 방식</h2>
   <ul>
-    <li><strong>채팅 상담</strong>: 텍스트로 차분히 정리 (상담 내용 기록에 유리)</li>
-    <li><strong>음성 상담</strong>: 빠르게 흐름을 잡고 싶은 분께 추천</li>
+    <li><strong>전화 상담</strong>: 율하타로 <a href="tel:01064973389" class="call-btn">010-6497-3389</a></li>
+    <li><strong>채팅 상담</strong>: 카톡ID: yulhatarot </li>
+    <li><strong>카카오 오픈채팅 상담</strong>: <a href="https://open.kakao.com/o/s6oJCqYh" class="kakao-btn">오픈채팅 입장</a> </li>
+    <li><strong>방문 상담</strong>: 대면 상담을 통해 빠르게 흐름을 잡고 싶은 분께 추천 </li>
   </ul>
   <p style="opacity:.85; margin-top: 8px;">
     원하시면 <strong>질문 다듬기</strong>도 함께 도와드려요. “무엇을 물어야 할지”부터가 상담의 시작이니까요.
@@ -72,17 +74,16 @@ permalink: /
 <div id="reserve" class="tarot-reserve">
   <h2>예약/문의</h2>
   <p>
-    아래 내용을 보내주시면 <strong>가능 시간</strong>과 <strong>상담 방식</strong>을 안내드릴게요.
+    카카오톡(ID: yulhatarot) 또는 <a href="https://open.kakao.com/o/s6oJCqYh" class="kakao-btn">카카오오픈채팅</a> 으로 문의 주시면 <strong>가능 시간</strong>과 <strong>상담 방식</strong>을 안내드릴게요.
   </p>
   <ol>
     <li><strong>닉네임/성함</strong></li>
-    <li><strong>원하시는 방식</strong> (채팅/음성)</li>
+    <li><strong>원하시는 방식</strong> (채팅/음성/방문)</li>
     <li><strong>원하시는 시간대</strong> (예: 오늘 9–11시 / 내일 오후)</li>
-    <li><strong>질문 1–3개</strong> (상황 설명은 짧아도 괜찮아요)</li>
   </ol>
 
   <div class="tarot-cta" style="margin-top: 14px;">
-    <a href="https://open.kakao.com/o/example" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding:10px 14px; border:1px solid currentColor; border-radius:10px; text-decoration:none; margin-right:8px;">
+    <a href="https://open.kakao.com/o/s6oJCqYh" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding:10px 14px; border:1px solid currentColor; border-radius:10px; text-decoration:none; margin-right:8px;">
       카카오 오픈채팅 문의하기
     </a>
     <a href="mailto:yulha3389@gmail.com?subject=%ED%83%80%EB%A1%9C%20%EC%83%81%EB%8B%B4%20%EC%98%88%EC%95%BD%2F%EB%AC%B8%EC%9D%98&body=%5B%EB%8B%89%EB%84%A4%EC%9E%84%2F%EC%84%B1%ED%95%A8%5D%0D%0A%0D%0A%5B%EC%83%81%EB%8B%B4%20%EB%B0%A9%EC%8B%9D%3A%20%EC%B1%84%ED%8C%85%2F%EC%9D%8C%EC%84%B1%5D%0D%0A%0D%0A%5B%EA%B0%80%EB%8A%A5%20%EC%8B%9C%EA%B0%84%EB%8C%80%5D%0D%0A%0D%0A%5B%EC%A7%88%EB%AC%B8%201%5D%0D%0A%5B%EC%A7%88%EB%AC%B8%202%5D%0D%0A%5B%EC%A7%88%EB%AC%B8%203%5D%0D%0A" style="display:inline-block; padding:10px 14px; border:1px solid currentColor; border-radius:10px; text-decoration:none; margin-right:8px;">
