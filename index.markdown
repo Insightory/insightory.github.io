@@ -63,7 +63,7 @@ permalink: /
 <div id="reserve" class="tarot-reserve">
   <h2>상담 방식</h2>
   <ul>                                     
-    <li><strong>전화 상담</strong>: 율하타로 <a href="tel:01064973389" class="call-btn">010-6497-3389</a></li>  
+    <li><strong>전화 상담</strong>: 율하타로 <a href="tel:01064973389" class="call-btn">클릭시 전화연결</a></li>  
     <li><strong>채팅 상담</strong>: 카톡ID: <a href="#" onclick="openKakaoTalk(); return false;">yulhatarot </a></li>
     <li><strong>카카오 오픈채팅 상담</strong>: <a href="https://open.kakao.com/o/s6oJCqYh" class="kakao-btn">오픈채팅 입장</a> </li>
     <li><strong>방문 상담</strong>: 대면 상담을 통해 빠르게 흐름을 잡고 싶은 분께 추천 </li>

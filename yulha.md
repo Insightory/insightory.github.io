@@ -27,3 +27,8 @@ permalink: /yulha/
 
 - 오프라인 상담소운영 및 상담사 양성과정 교육운영
 - 유니버설 웨이트, 올드 인글리쉬, 심볼론, 데카메론(19금), 호로스코프벨린등 다양한 타로덱 전문 상담사
+
+<div style="text-align: center; margin-top: 2rem;">
+  <img src="/assets/img/intro/dekameron.jpg" alt="데카메론 타로덱" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+  <p style="font-size: 0.85em; opacity: 0.7; margin-top: 0.5rem;">데카메론 타로덱</p>
+</div>
