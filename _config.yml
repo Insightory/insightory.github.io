@@ -43,7 +43,7 @@ author:
   # Add links to the sidebar.
 menu:
   - title: "오늘의 타로"
-    url: /tarot/
+    url: /dailytarot/
   - title: "가격 소개"
     url: /price/
   - title: "타로 카드 소개"
