@@ -31,3 +31,16 @@ permalink: /price/
 * 카카오 오픈채팅: <a href="https://open.kakao.com/o/s6oJCqYh" class="kakao-btn">오픈 채팅 입장 </a>
 * 방문 상담: 대면 상담을 통해 빠르게 흐름을 잡고 싶은 분께 추천 (카톡으로 문의) 
 
+<div style="margin-top: 0.5rem; margin-bottom: 1rem;">
+  <iframe
+    src="https://maps.google.com/maps?q=%EC%88%98%EC%9B%90%EC%97%AD&t=m&z=16&output=embed&iwloc=near"
+    width="100%"
+    height="300"
+    style="border: none; border-radius: 8px; display: block;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="율하타로 위치">
+  </iframe>
+</div>
+
