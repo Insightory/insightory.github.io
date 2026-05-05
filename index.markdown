@@ -117,3 +117,31 @@ permalink: /
     </div>
   </details>
 </div>
+
+<script>
+function openKakaoTalk() {
+  var deepLink  = 'kakaotalk://friend/add?id=yulhatarot';
+  var fallback  = 'https://open.kakao.com/o/s6oJCqYh';
+  var isMobile  = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  // PC: 딥링크 불필요 → 오픈채팅 바로 열기
+  if (!isMobile) {
+    window.open(fallback, '_blank');
+    return;
+  }
+
+  // 모바일: 1500ms 안에 앱이 열리지 않으면(blur 없음) 폴백 실행
+  var timer = setTimeout(function () {
+    window.location.href = fallback;
+  }, 1500);
+
+  // 앱이 실행되면 브라우저가 blur → 타이머 취소
+  window.addEventListener('blur', function onBlur() {
+    clearTimeout(timer);
+    window.removeEventListener('blur', onBlur);
+  });
+
+  // 딥링크 시도
+  window.location.href = deepLink;
+}
+</script>

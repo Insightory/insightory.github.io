@@ -6,23 +6,51 @@ permalink: /price/
 ---
 
 ## 상품 구조
-* 10분 체험: 12,000원
-* 20분 상담: 24,000원
-* 40분 상담: 46,000원
-* 90분 상담: 69,000원
+<div style="display: grid; grid-template-columns: 1fr; gap: 16px; align-items: stretch; margin-top: 20px; margin-bottom: 30px;">
 
-## 결제 방법
-* 카드 결제
-* 계좌 이체
+  <!-- 10분 체험 -->
+  <div style="border: 1px solid rgba(128,128,128,0.3); border-radius: 8px; padding: 16px 20px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
+      <h3 style="margin: 0;">10분 체험</h3>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-color, #4fb1ba);">12,000원</span>
+    </div>
+    <p style="font-size: 0.9em; margin: 0; opacity: 0.85;">간단하고 빠르게 현재 상황에 대한 조언과 통찰을 얻고 싶을 때 추천합니다.</p>
+  </div>
+
+  <!-- 20분 상담 -->
+  <div style="border: 1px solid rgba(128,128,128,0.3); border-radius: 8px; padding: 16px 20px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
+      <h3 style="margin: 0;">20분 상담</h3>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-color, #4fb1ba);">24,000원</span>
+    </div>
+    <p style="font-size: 0.9em; margin: 0; opacity: 0.85;">기본적인 타로 상담으로 한 가지 주제에 대해 심층적인 리딩이 가능합니다.</p>
+  </div>
+
+  <!-- 40분 상담 -->
+  <div style="border: 1px solid rgba(128,128,128,0.3); border-radius: 8px; padding: 16px 20px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
+      <h3 style="margin: 0;">40분 상담</h3>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-color, #4fb1ba);">46,000원</span>
+    </div>
+    <p style="font-size: 0.9em; margin: 0; opacity: 0.85;">두 가지 이상의 주제를 다루거나, 더 깊고 자세한 이야기를 나누고 싶을 때 좋습니다.</p>
+  </div>
+
+  <!-- 90분 상담 -->
+  <div style="border: 1px solid rgba(128,128,128,0.3); border-radius: 8px; padding: 16px 20px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
+      <h3 style="margin: 0;">90분 상담</h3>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-color, #4fb1ba);">69,000원</span>
+    </div>
+    <p style="font-size: 0.9em; margin: 0; opacity: 0.85;">충분한 시간 동안 편안한 대화 및 종합적인 심도 있는 분석을 원하실 때 추천합니다.</p>
+  </div>
+
+</div>
+
 
 ## 상담 방법
 * 전화 상담
 * 채팅 상담
 * 방문 상담
-
-## 상담 시간
-* 평일: 10:00 ~ 22:00
-* 주말: 10:00 ~ 22:00
 
 ## 상담 예약
 * 전화: <a href="tel:01064973389" class="call-btn">010-6497-3389</a>
