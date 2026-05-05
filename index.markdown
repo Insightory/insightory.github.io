@@ -9,7 +9,7 @@ permalink: /
 <div class="insightory">
   <div class="insightory-text">
     <p class="tarot-desc"><strong>카드가 당신의 이야기를 조용히 비춰드립니다.</strong></p>
-    <p class="tarot-desc">연애 · 관계 · 진로 · 금전 · 선택의 갈림길, 혼자 끙끙 앓지 말고 <strong>율하</strong>와 함께 정리해보세요.</p>
+    <p class="tarot-desc">연애 · 관계 · 진로 · 금전 · 선택의 갈림길, 혼자 끙끙 앓지 말고 애정타로 전문 마스터 <strong>'율하'</strong>와 함께 정리해보세요.</p>
 
     <div class="tarot-cta" style="margin-top: 14px;">
       <a href="#reserve" class="tarot-button" style="display:inline-block; padding:10px 14px; border:1px solid currentColor; border-radius:10px; text-decoration:none; margin-right:8px;">
@@ -49,17 +49,6 @@ permalink: /
     타로는 “정답 맞히기”보다 <strong>당신의 선택을 돕는 지도</strong>에 가깝습니다. 부담 없이, 그러나 진지하게 봐드릴게요.
   </p>
 
-  <h2>상담 방식</h2>
-  <ul>
-    <li><strong>전화 상담</strong>: 율하타로 <a href="tel:01064973389" class="call-btn">010-6497-3389</a></li>
-    <li><strong>채팅 상담</strong>: 카톡ID: yulhatarot </li>
-    <li><strong>카카오 오픈채팅 상담</strong>: <a href="https://open.kakao.com/o/s6oJCqYh" class="kakao-btn">오픈채팅 입장</a> </li>
-    <li><strong>방문 상담</strong>: 대면 상담을 통해 빠르게 흐름을 잡고 싶은 분께 추천 </li>
-  </ul>
-  <p style="opacity:.85; margin-top: 8px;">
-    원하시면 <strong>질문 다듬기</strong>도 함께 도와드려요. “무엇을 물어야 할지”부터가 상담의 시작이니까요.
-  </p>
-
   <h2>상담 주제 예시</h2>
   <ul>
     <li><strong>연애/관계</strong>: 속마음, 연락운, 관계 흐름, 재회 가능성, 썸/연인 갈등</li>
@@ -72,6 +61,31 @@ permalink: /
 <hr style="margin: 26px 0; opacity:.35;">
 
 <div id="reserve" class="tarot-reserve">
+  <h2>상담 방식</h2>
+  <ul>                                     
+    <li><strong>전화 상담</strong>: 율하타로 <a href="tel:01064973389" class="call-btn">010-6497-3389</a></li>  
+    <li><strong>채팅 상담</strong>: 카톡ID: <a href="#" onclick="openKakaoTalk(); return false;">yulhatarot </a></li>
+    <li><strong>카카오 오픈채팅 상담</strong>: <a href="https://open.kakao.com/o/s6oJCqYh" class="kakao-btn">오픈채팅 입장</a> </li>
+    <li><strong>방문 상담</strong>: 대면 상담을 통해 빠르게 흐름을 잡고 싶은 분께 추천 </li>
+  </ul>
+
+  <p style="opacity:.85; margin-top: 8px;">
+    원하시면 <strong>질문 다듬기</strong>도 함께 도와드려요. “무엇을 물어야 할지”부터가 상담의 시작이니까요.
+  </p>
+  
+  <div style="margin-top: 0.5rem; margin-bottom: 1rem;">
+    <iframe
+      src="https://maps.google.com/maps?q=%EC%88%98%EC%9B%90%EC%97%AD&t=m&z=16&output=embed&iwloc=near"
+      width="100%"
+      height="300"
+      style="border: none; border-radius: 8px; display: block;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="율하타로 위치">
+    </iframe>
+  </div>
+
   <h2>예약/문의</h2>
   <p>
     카카오톡(ID: yulhatarot) 또는 <a href="https://open.kakao.com/o/s6oJCqYh" class="kakao-btn">카카오오픈채팅</a> 으로 문의 주시면 <strong>가능 시간</strong>과 <strong>상담 방식</strong>을 안내드릴게요.
