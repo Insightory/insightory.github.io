@@ -73,8 +73,8 @@ permalink: /
     원하시면 <strong>질문 다듬기</strong>도 함께 도와드려요. “무엇을 물어야 할지”부터가 상담의 시작이니까요.
   </p>
   
-  <div style="margin-top: 0.5rem; margin-bottom: 1rem;">
-    <iframe
+  <!-- div style="margin-top: 0.5rem; margin-bottom: 1rem;">
+    < iframe
       src="https://maps.google.com/maps?q=%EC%88%98%EC%9B%90%EC%97%AD&t=m&z=16&output=embed&iwloc=near"
       width="100%"
       height="300"
@@ -83,8 +83,8 @@ permalink: /
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
       title="율하타로 위치">
-    </iframe>
-  </div>
+    </iframe  >
+  </div -->
 
   <h2>예약/문의</h2>
   <p>
