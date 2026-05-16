@@ -37,10 +37,10 @@ permalink: /reserve/
     <p style="font-size: 0.9em; margin: 0; opacity: 0.85;">두 가지 이상의 주제를 다루거나, 더 깊고 자세한 이야기를 나누고 싶을 때 좋습니다.</p>
   </div>
 
-  <!-- 90분 상담 -->
+  <!-- 60분 상담 -->
   <div style="border: 1px solid rgba(128,128,128,0.3); border-radius: 8px; padding: 16px 20px;">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
-      <h3 style="margin: 0;">90분 상담</h3>
+      <h3 style="margin: 0;">60분 상담</h3>
       <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-color, #4fb1ba);">69,000원</span>
     </div>
     <p style="font-size: 0.9em; margin: 0; opacity: 0.85;">충분한 시간 동안 편안한 대화 및 종합적인 심도 있는 분석을 원하실 때 추천합니다.</p>
@@ -59,7 +59,35 @@ permalink: /reserve/
   <p style="opacity:.85; margin-top: 8px;">
     원하시면 <strong>질문 다듬기</strong>도 함께 도와드려요. “무엇을 물어야 할지”부터가 상담의 시작이니까요.
   </p>
-
+</div>
 > **✅ Admin (관리자용)**
 > 
 > "예약하기" 
+
+<script>
+function openKakaoTalk() {
+  var deepLink  = 'kakaotalk://friend/add?id=yulhatarot';
+  var fallback  = 'https://open.kakao.com/o/s6oJCqYh';
+  var isMobile  = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  // PC: 딥링크 불필요 → 오픈채팅 바로 열기
+  if (!isMobile) {
+    window.open(fallback, '_blank');
+    return;
+  }
+
+  // 모바일: 1500ms 안에 앱이 열리지 않으면(blur 없음) 폴백 실행
+  var timer = setTimeout(function () {
+    window.location.href = fallback;
+  }, 1500);
+
+  // 앱이 실행되면 브라우저가 blur → 타이머 취소
+  window.addEventListener('blur', function onBlur() {
+    clearTimeout(timer);
+    window.removeEventListener('blur', onBlur);
+  });
+
+  // 딥링크 시도
+  window.location.href = deepLink;
+}
+</script>

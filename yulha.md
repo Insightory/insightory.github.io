@@ -29,6 +29,25 @@ permalink: /yulha/
 - 유니버설 웨이트, 올드 인글리쉬, 심볼론, 데카메론(19금), 호로스코프벨린등 다양한 타로덱 전문 상담사
 
 <div style="text-align: center; margin-top: 2rem;">
-  <img src="/assets/img/intro/dekameron.jpg" alt="데카메론 타로덱" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
-  <p style="font-size: 0.85em; opacity: 0.7; margin-top: 0.5rem;">데카메론 타로덱</p>
+  <img src="/assets/img/intro/dekameron.jpg" alt="데카메론 타로" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+  <p style="font-size: 0.85em; opacity: 0.7; margin-top: 0.5rem;">데카메론 타로</p>
+</div>
+
+<div style="max-width:720px; margin:1rem auto; text-align:left; line-height:1.7; word-break:keep-all;">
+  <p style="font-size:1.05em; margin-bottom:0.6rem;">
+    데카메론 타로(Decameron Tarot)는 일반 타로보다 훨씬 직접적으로<br/>
+    관계의 에너지·욕망·심리적 긴장·성적 케미를 읽는 덱입니다.
+  </p>
+  <p style="font-size:0.95em; margin-bottom:0.4rem;">
+    다만 중요한 건, 데카메론 타로에서 “속궁합”은 단순 육체 궁합보다:
+  </p>
+  <ul style="margin-left:1rem; list-style: disc;">
+    <li>누가 주도권을 잡는가</li>
+    <li>감정이 얼마나 개입되는가</li>
+    <li>관계가 중독적으로 흐르는가</li>
+    <li>욕망과 사랑이 균형 잡히는가</li>
+  </ul>
+  <p style="font-size:0.95em; margin-bottom:0.4rem;">
+    데카메론 타로 전문 상담사로써 연애운 이상의 것을 확인하고 싶은 내담자에게 추천합니다.
+  </p>
 </div>
