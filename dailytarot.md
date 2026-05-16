@@ -32,87 +32,6 @@ permalink: /dailytarot/
   margin-top: 0.4rem;
 }
 
-/* ── Shuffle Stage ────────────────────────── */
-.shuffle-stage {
-  position: relative;
-  width: 100%;
-  height: 180px;
-  margin: 2rem auto 1.5rem;
-  max-width: 420px;
-  overflow: visible;
-}
-.tarot-card {
-  position: absolute;
-  width: 65px;
-  height: 108px;
-  left: 50%;
-  top: 50%;
-  margin-left: -32px;
-  margin-top: -54px;
-  border-radius: 7px;
-  border: 2px solid #c9a96e;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.45);
-  background: linear-gradient(160deg, #1e103a 0%, #3a1a72 60%, #1e103a 100%);
-  cursor: pointer;
-  transform-origin: center bottom;
-}
-/* Card inner pattern */
-.tarot-card::before {
-  content: '✦';
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2em;
-  color: rgba(201,169,110,0.5);
-}
-.tarot-card::after {
-  content: '';
-  position: absolute;
-  inset: 5px;
-  border: 1px solid rgba(201,169,110,0.3);
-  border-radius: 4px;
-}
-
-/* Individual card animations */
-@keyframes fan-c1 {
-  0%,100% { transform: translateX(0) translateY(0) rotate(0deg); z-index:1; }
-  40%,60% { transform: translateX(-145px) translateY(10px) rotate(-25deg); z-index:1; }
-}
-@keyframes fan-c2 {
-  0%,100% { transform: translateX(0) translateY(0) rotate(0deg); z-index:2; }
-  40%,60% { transform: translateX(-95px) translateY(5px) rotate(-15deg); z-index:2; }
-}
-@keyframes fan-c3 {
-  0%,100% { transform: translateX(0) translateY(0) rotate(0deg); z-index:3; }
-  40%,60% { transform: translateX(-45px) translateY(2px) rotate(-7deg); z-index:3; }
-}
-@keyframes fan-c4 {
-  0%,100% { transform: translateX(0) translateY(0) rotate(0deg); z-index:4; }
-  40%,60% { transform: translateX(0px) translateY(-5px) rotate(0deg); z-index:4; }
-}
-@keyframes fan-c5 {
-  0%,100% { transform: translateX(0) translateY(0) rotate(0deg); z-index:3; }
-  40%,60% { transform: translateX(45px) translateY(2px) rotate(7deg); z-index:3; }
-}
-@keyframes fan-c6 {
-  0%,100% { transform: translateX(0) translateY(0) rotate(0deg); z-index:2; }
-  40%,60% { transform: translateX(95px) translateY(5px) rotate(15deg); z-index:2; }
-}
-@keyframes fan-c7 {
-  0%,100% { transform: translateX(0) translateY(0) rotate(0deg); z-index:1; }
-  40%,60% { transform: translateX(145px) translateY(10px) rotate(25deg); z-index:1; }
-}
-
-#tc1 { animation: fan-c1 3.2s ease-in-out infinite; }
-#tc2 { animation: fan-c2 3.2s ease-in-out infinite 0.05s; }
-#tc3 { animation: fan-c3 3.2s ease-in-out infinite 0.1s; }
-#tc4 { animation: fan-c4 3.2s ease-in-out infinite 0.15s; }
-#tc5 { animation: fan-c5 3.2s ease-in-out infinite 0.1s; }
-#tc6 { animation: fan-c6 3.2s ease-in-out infinite 0.05s; }
-#tc7 { animation: fan-c7 3.2s ease-in-out infinite 0s; }
-
 /* ── Yulha Image ──────────────────────────── */
 .dt-yulha {
   text-align: center;
@@ -128,7 +47,13 @@ permalink: /dailytarot/
 /* ── Fortune Table ───────────────────────── */
 .fortune-wrap {
   margin: 1.5rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 수직 중앙 정렬 */
+  min-height: 200px; /* 필요 시 조정 */
 }
+.fortune-wrap { box-sizing: border-box; padding: 0 12px; }
 .fortune-wrap h2 {
   text-align: center;
   font-size: 1.1em;
@@ -138,30 +63,41 @@ permalink: /dailytarot/
 }
 .fortune-table {
   width: 100%;
+  max-width: 520px;
   border-collapse: collapse;
   border-radius: 10px;
-  overflow: hidden;
   box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  margin: 0 auto;
+  table-layout: auto; /* 컨텐츠에 맞춰 컬럼 너비 조정 */
+  overflow: visible; /* 잘림 방지 */
+  box-sizing: border-box;
 }
 .fortune-table thead tr {
   background: linear-gradient(135deg, #2a1a4a, #4a2a8a);
 }
 .fortune-table th {
   color: #c9a96e;
-  padding: 14px 8px;
+  padding: 10px 6px;
   text-align: center;
   font-size: 1em;
   letter-spacing: 0.03em;
   border: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 .fortune-table td {
   text-align: center;
-  padding: 22px 8px;
-  font-size: 2.2em;
+  padding: 18px 8px;
+  font-size: clamp(1.2rem, 3.5vw, 2.2em); /* 화면 크기에 따라 자동 축소 */
   font-weight: 800;
   color: var(--accent-color, #4fb1ba);
   background: rgba(74,42,138,0.08);
   border: 1px solid rgba(128,128,128,0.15);
+}
+
+@media (max-width: 420px) {
+  .fortune-table td { padding: 12px 6px; font-size: 1.4em; }
+  .fortune-table th { font-size: 0.92em; padding: 8px 6px; }
 }
 .fortune-caption {
   text-align: center;
@@ -174,18 +110,6 @@ permalink: /dailytarot/
 <!-- ① Hero -->
 <div class="dt-hero">
   <div class="dt-hero-title">✨ 당신의 오늘 운세를<br/>타로로 찾아 드립니다 ✨</div>
-  <div class="dt-date-badge" id="dt-today-date">로딩 중…</div>
-</div>
-
-<!-- ② Card Shuffle Animation -->
-<div class="shuffle-stage">
-  <div class="tarot-card" id="tc1"></div>
-  <div class="tarot-card" id="tc2"></div>
-  <div class="tarot-card" id="tc3"></div>
-  <div class="tarot-card" id="tc4"></div>
-  <div class="tarot-card" id="tc5"></div>
-  <div class="tarot-card" id="tc6"></div>
-  <div class="tarot-card" id="tc7"></div>
 </div>
 
 <!-- ③ Yulha Image -->
@@ -196,12 +120,13 @@ permalink: /dailytarot/
 <!-- ④⑤⑥ Fortune Table -->
 <div class="fortune-wrap">
   <h2>오늘 당신의 타로 번호</h2>
+  <center>
   <table class="fortune-table">
     <thead>
       <tr>
-        <th>💕 연애운</th>
-        <th>💰 금전운</th>
-        <th>💪 건강운</th>
+        <th>연애운</th>
+        <th>금전운</th>
+        <th>건강운</th>
       </tr>
     </thead>
     <tbody>
@@ -212,41 +137,58 @@ permalink: /dailytarot/
       </tr>
     </tbody>
   </table>
+  </center>
 </div>
 
 <script>
-// ── 오늘 날짜 표시 ────────────────────────
+// 오늘 날짜 전용 — 브라우저 ID 제거, 날짜만으로 시드 생성
 (function () {
-  const d = new Date();
-  const label = d.getFullYear() + '년 ' +
-                (d.getMonth() + 1) + '월 ' +
-                d.getDate() + '일 운세';
-  document.getElementById('dt-today-date').textContent = label;
+  function formatDateLabel(d){
+    return d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일 운세';
+  }
+
+  const dateBadge = document.getElementById('dt-today-date');
+  const today = new Date();
+
+  // 문자열 -> 32bit 해시 (FNV-1a 변형)
+  function xfnv1a(str) {
+    let h = 2166136261 >>> 0;
+    for (let i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return h >>> 0;
+  }
+
+  // mulberry32 PRNG 생성기
+  function mulberry32(a) {
+    return function() {
+      var t = a += 0x6D2B79F5;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  // 날짜 문자열과 컬럼을 합쳐 난수 생성 (브라우저 ID 제거)
+  function seededRandFor(dateStr, column) {
+    const seedStr = dateStr + '|' + column;
+    const seed = xfnv1a(seedStr);
+    const rnd = mulberry32(seed);
+    return rnd();
+  }
+
+  // 날짜 객체와 컬럼으로 카드 번호(2~79) 생성
+  function getDailyCardForDate(dateObj, column) {
+    const dateKey = dateObj.getFullYear() * 10000 + (dateObj.getMonth() + 1) * 100 + dateObj.getDate();
+    const r = seededRandFor(String(dateKey), column);
+    return Math.floor(r * 78) + 2; // 2~79
+  }
+
+  // 렌더(오늘 날짜 기준)
+  document.getElementById('love-num').textContent = getDailyCardForDate(today, 1);
+  document.getElementById('money-num').textContent = getDailyCardForDate(today, 2);
+  document.getElementById('health-num').textContent = getDailyCardForDate(today, 3);
+  dateBadge.textContent = formatDateLabel(today);
 })();
-
-// ── 날짜 기반 시드 PRNG ──────────────────
-// 같은 날짜 → 항상 같은 숫자 (2~79)
-function seededRand(seed) {
-  // 간단한 mulberry32 변형
-  seed = seed ^ 0xdeadbeef;
-  seed = Math.imul(seed ^ (seed >>> 16), 0x45d9f3b);
-  seed = Math.imul(seed ^ (seed >>> 16), 0x45d9f3b);
-  seed = seed ^ (seed >>> 16);
-  // 0~1 사이 양수값
-  return (seed >>> 0) / 4294967296;
-}
-
-function getDailyCard(column) {
-  const d = new Date();
-  // 날짜를 정수 시드로 변환: YYYYMMDD + column offset
-  const dateInt = d.getFullYear() * 10000 +
-                  (d.getMonth() + 1) * 100 +
-                  d.getDate();
-  const seed = dateInt + column * 9973; // 소수로 column 분리
-  return Math.floor(seededRand(seed) * 78) + 2; // 2~79
-}
-
-document.getElementById('love-num').textContent   = getDailyCard(1);
-document.getElementById('money-num').textContent  = getDailyCard(2);
-document.getElementById('health-num').textContent = getDailyCard(3);
 </script>
